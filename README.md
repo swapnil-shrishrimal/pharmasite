@@ -1,0 +1,2 @@
+# pharmasite
+Django static website
