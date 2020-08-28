@@ -615,7 +615,7 @@ p {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
   .navbar-area .navbar-brand img {
-    max-width: 150px; }
+    max-width: 200px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .navbar-area {
       padding: 10px 0; } }
@@ -692,7 +692,7 @@ p {
           line-height: 24px;
           font-weight: 700;
           padding: 11px 16px;
-          color: #fff;
+          color: #000;
           text-transform: uppercase;
           position: relative;
           border-radius: 5px;
@@ -719,7 +719,7 @@ p {
             content: '';
             width: 32px;
             height: 4px;
-            background-color: #fff;
+            background-color: #000;
             left: 50%;
             bottom: 0;
             -webkit-transition: all 0.3s ease-out 0s;
@@ -934,7 +934,7 @@ p {
       font-size: 32px;
       position: relative;
       overflow: hidden;
-      color: #fff;
+      color: #000;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
       -ms-transition: all 0.3s ease-out 0s;
@@ -1118,11 +1118,28 @@ p {
         transform: translateY(-50%);
         width: 100%;
         left: 0; }
+		.header{
+          font-size: 44px;
+          padding-bottom: 100px;
+          font-weight: 600;
+          font-family: initial;
+          color: #06070C; /* Slider 1 font color */
+          line-height: 55px; }
+          .slider-custom{
+          font-size: 40px;
+          font-weight: 600;
+          font-family: initial; /* Slider 3 custom area */
+          color: #000;
+          line-height: 60px;
+          padding-bottom: 100px;
+          padding-left: 70px; }
         .slider-area .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-title {
           font-size: 44px;
           font-weight: 700;
-          color: #fff;
-          line-height: 55px; }
+          font-family: initial; /* slider 2 font area */
+          padding-bottom: 150px;
+          color: #000;
+          line-height: 65px; }
           @media (max-width: 767px) {
             .slider-area .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-title {
               font-size: 24px;
