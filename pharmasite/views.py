@@ -1,3 +1,4 @@
+import os
 from django.shortcuts import render
 from django.core.mail import send_mail
 
@@ -20,8 +21,8 @@ def contact(request):
 			message, # message
 			email, # from email
 			['shrishrimalswapnil@gmail.com','indiconinnovatives1998@gmail.com'], # to email
-			auth_user = 'indiconinnovatives1998@gmail.com',
-			auth_password = '',
+			auth_user = os.environ['EMAIL_HOST_USER'],
+			auth_password = os.environ['EMAIL_HOST_PASSWORD'],
 			fail_silently = False,
 			)
 
