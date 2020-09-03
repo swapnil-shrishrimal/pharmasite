@@ -615,7 +615,7 @@ p {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
   .navbar-area .navbar-brand img {
-    max-width: 200px; }
+    max-width: 170px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .navbar-area {
       padding: 10px 0; } }
@@ -1118,30 +1118,10 @@ p {
         transform: translateY(-50%);
         width: 100%;
         left: 0; }
-		.header{
-          font-size: 44px;
-          /* padding-bottom: 100px; */
-          font-weight: 400;
-          font-family: initial;
-          color: #620A27;
-          padding-top: 100px;
-          padding-left: 550px; /* Slider 1 font color */
-          line-height: 45px; }
-          .slider-custom{
-          /*font-size: 40px;
-          font-weight: 600;
-          font-family: initial; /* Slider 3 custom area */
-          color: #fff;
-          line-height: 60px;
-          /*padding-bottom: 100px;
-          padding-left: 70px; */}
         .slider-area .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-title {
           font-size: 44px;
-          font-weight: 400;
-          font-family: initial; /* slider 2 font area */
-          padding-bottom: 180px;
-          padding-right: 200px;
-          color: #000;
+          font-weight: 700;
+          color: #fff;
           line-height: 55px; }
           @media (max-width: 767px) {
             .slider-area .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-title {
@@ -2042,7 +2022,7 @@ p {
 /*===== Client Logo Two =====*/
 .client-logo-area {
   padding-top: 80px;
-  padding-bottom: 60px; }
+  padding-bottom: 80px; }
 
 .client-logo-2 {
   background-color: #f4f6f7; }
