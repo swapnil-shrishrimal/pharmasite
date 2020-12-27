@@ -62,7 +62,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Palatino", "Palatino Linotype" ;
   font-weight: 600;
   color: #121212;
   margin: 0px; }
@@ -1306,9 +1306,9 @@ p {
   padding-top: 100px;
   padding-bottom: 100px; }
   .about-area .section-title .title {
-    font-size: 44px;
-    font-weight: 600;
-    line-height: 55px;
+    font-size: 40px;
+    font-weight: 550;
+    line-height: 50px;
     color: #121212; }
     @media (max-width: 767px) {
       .about-area .section-title .title {
