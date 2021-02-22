@@ -258,24 +258,24 @@ tbody tr:hover {
     left: 30px;
     top: 0;
   }
-  table tbody tr td:nth-child(1):before {
-    /*content: "Date";*/
+  /*table tbody tr td:nth-child(1):before {
+    content: "Date";
   }
   table tbody tr td:nth-child(2):before {
-    /*content: "Order ID";*/
+    content: "Order ID";
   }
   table tbody tr td:nth-child(3):before {
-    /*content: "Name";*/
+    content: "Name";
   }
   table tbody tr td:nth-child(4):before {
-    /*content: "Price";*/
+    content: "Price";
   }
   table tbody tr td:nth-child(5):before {
-    /*content: "Quantity";*/
+    content: "Quantity";
   }
   table tbody tr td:nth-child(6):before {
-    /*content: "Total";*/
-  }
+    content: "Total";
+  }*/
 
   .column4,
   .column5,
