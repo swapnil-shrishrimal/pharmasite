@@ -20,7 +20,7 @@ def contact(request):
 			'Email from ' + name, # subject
 			message, # message
 			email, # from email
-			['shrishrimalswapnil@gmail.com','indiconinnovatives1998@gmail.com'], # to email
+			['rishabhtathed3103@gmail.com','indiconinnovatives1998@gmail.com'], # to email
 			auth_user = os.environ['EMAIL_HOST_USER'],
 			auth_password = os.environ['EMAIL_HOST_PASSWORD'],
 			fail_silently = False,
