@@ -227,15 +227,15 @@ tbody tr:hover {
 */
 
 @media screen and (max-width: 992px) {
-  /*table {
+  table {
     display: block;
   }
-  table > *, table tr, table td, table th {
+  /*table > *, table tr, table td, table th {
     display: block;
   }*/
-  table thead {
+  /*table thead {
     display: none;
-  }
+  }*/
   table tbody tr {
     height: auto;
     padding: 37px 0;
