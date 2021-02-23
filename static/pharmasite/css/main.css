@@ -227,9 +227,9 @@ tbody tr:hover {
 */
 
 @media screen and (max-width: 992px) {
-  table {
+  /*table {
     display: block;
-  }
+  }*/
   /*table > *, table tr, table td, table th {
     display: block;
   }*/
