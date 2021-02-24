@@ -33,7 +33,7 @@
 .rwd-table th, .rwd-table td {
   text-align: center;
 }
-@media (min-width: 480px) {
+@media (min-width: 320px) {
   .rwd-table th, .rwd-table td {
     display: table-cell;
     padding: .25em .5em;
@@ -73,7 +73,7 @@ h1 {
 .rwd-table th, .rwd-table td {
   margin: .5em 1em;
 }
-@media (min-width: 480px) {
+@media (min-width: 320px) {
   .rwd-table th, .rwd-table td {
     padding: 1em !important;
   }
