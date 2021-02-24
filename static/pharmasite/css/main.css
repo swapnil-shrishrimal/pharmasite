@@ -226,7 +226,7 @@ tbody tr:hover {
 }
 */
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 320px) {
   /*table {
     display: block;
   }*/
@@ -297,7 +297,7 @@ tbody tr:hover {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 320px) {
   .container-table100 {
     padding-left: 15px;
     padding-right: 15px;
