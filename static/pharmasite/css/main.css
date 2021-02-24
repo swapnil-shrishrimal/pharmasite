@@ -226,16 +226,16 @@ tbody tr:hover {
 }
 */
 
-@media screen and (max-width: 992px) and (min-width: 320px) {
-  table {
+@media screen and (max-width: 992px) {
+  /*table {
     display: block;
-  }
-  table > *, table tr, table td, table th {
+  }*/
+  /*table > *, table tr, table td, table th {
     display: block;
-  }
-  table thead {
+  }*/
+  /*table thead {
     display: none;
-  }
+  }*/
   table tbody tr {
     height: auto;
     padding: 37px 0;
@@ -297,7 +297,7 @@ tbody tr:hover {
   }
 }
 
-@media (max-width: 576px) and (min-width: 320px){
+@media (max-width: 576px) {
   .container-table100 {
     padding-left: 15px;
     padding-right: 15px;
