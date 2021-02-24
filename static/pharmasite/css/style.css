@@ -107,6 +107,8 @@ p {
   @media (min-width: 320px) {
     .bg_cover {
       background-size: 100%;
+      background-color: #fff;
+
     }
   }
 
