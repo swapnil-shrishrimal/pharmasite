@@ -19,12 +19,12 @@
 .rwd-table td:last-child {
   padding-bottom: .5em;
 }
-/*.rwd-table td:before {
-  content: attr(data-th) ;
+.rwd-table td:before {
+  content: attr(data-th) "";
   font-weight: bold;
   width: 6.5em;
   display: inline-block;
-}*/
+}
 /*@media (min-width: 480px) {
   .rwd-table td:before {
     display: none;
