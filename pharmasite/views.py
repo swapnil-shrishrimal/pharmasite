@@ -28,7 +28,7 @@ def contact(request):
 			fail_silently = False,
 			)
 
-		return render(request, 'contact.html', {'name' : name}, c)
+		return render(request, 'contact.html', {'name' : name})
 
 	else:
-		return render(request, 'home.html', {}, c)
+		return render(request, 'home.html', {})
