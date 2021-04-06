@@ -1,7 +1,7 @@
 import os
 from django.shortcuts import render
 from django.core.mail import send_mail
-
+from django.template.context_processors import csrf
 # Create your views here.
 #Home page view
 def home(request):
@@ -14,6 +14,8 @@ def contact(request):
 		name = request.POST['name']
 		email = request.POST['email']
 		message = request.POST['message']
+		c = {}
+		c.update(csrf(request))
 
 		#Email code here
 		send_mail(
@@ -26,7 +28,7 @@ def contact(request):
 			fail_silently = False,
 			)
 
-		return render(request, 'contact.html', {'name' : name})
+		return render(request, 'contact.html', {'name' : name}, c)
 
 	else:
-		return render(request, 'home.html', {})
+		return render(request, 'home.html', {}, c)
